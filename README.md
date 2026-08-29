@@ -1,8 +1,8 @@
-# DM-EAS : DISASTER MANAGEMENT AND EMERGENCY ALERT SYSTEM
+# DP-CRS : DISASTER PREDICTION AND COMMUNITY RESPONSE SYSTEM
 
 A MERN-based disaster reporting and emergency coordination platform with real-time updates, geospatial incident tracking, and role-based workflows for citizens, authority officers, and administrators.
 
-## Project Analysis Snapshot (April 5, 2026)
+## Project Analysis Snapshot
 
 This README was rebuilt after a full codebase pass across:
 - Backend routes, controllers, services, models, middleware, and startup flow
