@@ -1,0 +1,32 @@
+services:
+  - type: web
+    name: imsd-backend
+    runtime: node
+    rootDir: backend
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: JWT_EXPIRE
+        value: 7d
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: FRONTEND_URL
+        sync: false
+      - key: DEFAULT_ADMIN_NAME
+        value: System Administrator
+      - key: DEFAULT_ADMIN_USERID
+        value: admin_user
+      - key: DEFAULT_ADMIN_EMAIL
+        value: admin@demo.com
+      - key: DEFAULT_ADMIN_PASSWORD
+        value: "123456"
+      - key: DEFAULT_ADMIN_DEPARTMENT
+        value: admin
