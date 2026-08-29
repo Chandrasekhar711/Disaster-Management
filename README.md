@@ -1,4 +1,4 @@
-# IMSD - Integrated Management System for Disasters
+# DM-EAS : DISASTER MANAGEMENT AND EMERGENCY ALERT SYSTEM
 
 A MERN-based disaster reporting and emergency coordination platform with real-time updates, geospatial incident tracking, and role-based workflows for citizens, authority officers, and administrators.
 
